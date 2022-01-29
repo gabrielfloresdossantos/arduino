@@ -1,3 +1,16 @@
+//Criado por Gabriel 
+//inscreva-se no canal > https://www.youtube.com/channel/UCYWHAGFsDUDON5siyGaWAfA
+
+//INFORMAÇÃO SOBRE A LIGAÇÃO
+//Pino SDA do modulo i2C ligado ao pino A5 do arduino
+//Pino SCl do modulo i2C ligado ao pino A4 do arduino
+//Pino VDD do modulo i2C ligado ao pino 5V do arduino
+//Pino GND do modulo i2C ligado ao pino GND do arduino
+
+//Pino 1 do Sensor DHT22 ligado ao pino 5V do arduino
+//Pino 2 do Sensor DHT22 ligado ao pino 2 do arduino (colocar um resistor de 10K entre o sinal e o 5V do arduino)
+//Pino 4 do Sensor DHT22 ligado ao pino GND do arduino
+
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <Adafruit_Sensor.h>
